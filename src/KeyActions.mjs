@@ -7,7 +7,8 @@ const KeyActions =
     ACTION_LEFT   : { flag : 2, needsFullCycle : false },
     ACTION_DOWN   : { flag : 4, needsFullCycle : false },
     ACTION_RIGHT  : { flag : 8, needsFullCycle : false },
-    ACTION_ESCAPE : { flag : 16, needsFullCycle : true }
+    ACTION_ESCAPE : { flag : 16, needsFullCycle : true },
+    ACTION_ENTER  : { flag:  32, needsFullCycle : true }
 }
 
 export { KeyActions as default }

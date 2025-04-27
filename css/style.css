@@ -16,6 +16,18 @@ html, body
     display: block;
 }
 
+#CC-DirectConnect-Error
+{
+    background-color: red;
+
+    border-radius: 1rem;
+
+    margin-top: 2rem;
+    padding: 1rem;
+
+    display: none;
+}
+
 .CC-Menu
 {
     position: absolute;
@@ -68,6 +80,15 @@ html, body
         border: 0.125rem solid #f4f4f4;
     }
 
+    a
+    {
+        width: 100%;
+        height: 100%;
+
+        text-decoration: none;
+        color: white;
+    }
+
     .CC-Menu-Item
     {
         text-align: center;
@@ -102,13 +123,21 @@ html, body
 
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
+
+            min-width: 20rem;
+            min-height: 2.25rem;
+
+            font-weight: bold;
+            font-size: 1.5rem;
+
+            text-align: center;
         }
     }
 
     .CC-Menu-Title
     {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
 
         width: 100%;
 

@@ -15,6 +15,7 @@
             <button class="CC-Menu-Item CC-Button">Server List</button>
             <button class="CC-Menu-Item CC-Button">Updates</button>
             <button class="CC-Menu-Item CC-Button">Settings</button>
+            <a href="https://discord.com/invite/V6fMXEDDZx"><button class="CC-Menu-Item CC-Button">Discord</button></a>
             <button class="CC-Menu-Item CC-Button">License</button>
             <button class="CC-Menu-Item CC-Button">Privacy Policy</button>
             <button class="CC-Menu-Item CC-Button">Credits</button>
@@ -23,9 +24,10 @@
             <div class="CC-Menu-Item CC-Menu-Title">ClanCats - Direct Connect</div>
             <div class="CC-Menu-Item">
                 <label for="CC-Hostname">Hostname/IP-Address:</label>
-                <input id="CC-Hostname" type="text"></input>
+                <input id="CC-Hostname" type="text" value="http://127.0.0.1:8085" />
             </div>
-            <button class="CC-Menu-Item CC-Button">Connect</button>
+            <button id="CC-Button-DirectConnect-Start" class="CC-Menu-Item CC-Button">Connect</button>
+            <div id="CC-DirectConnect-Error" class="CC-Menu-Item"></div>
         </div>
     </body>
 </html>
