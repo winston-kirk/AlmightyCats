@@ -1,5 +1,5 @@
-# ClanCats
-ClanCats Game - The web application
+# Almighty Cats
+Almighty Cats Game - The web application
 
 ## Demo
 https://winston-kirk.github.io/ClanCats/
